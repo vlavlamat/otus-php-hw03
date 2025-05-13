@@ -1,0 +1,31 @@
+# Игнорировать каталоги Composer
+/vendor/
+composer.lock
+
+# Кэш Composer
+/.composer/cache/
+
+# Игнорировать файлы Docker (если есть сборки или временные файлы)
+/docker/*.log
+*.pid
+
+# Игнорировать IDE и редакторы
+.idea/
+.vscode/
+*.swp
+
+# Игнорировать временные файлы и логи
+*.log
+*.cache
+*.tmp
+*.bak
+
+# MacOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+desktop.ini
